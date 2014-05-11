@@ -29,6 +29,22 @@ int main(int argc, const char * argv[])
         cout << subStringBuffer << endl;
     }
     
+    subStringStart = 0;
+    subStringLen = LCSubStr_EX2(str1, str2, strlen(str1), strlen(str2), &subStringStart);
+    if (subStringLen > 0) {
+        char subStringBuffer[MAXLEN];
+        snprintf(subStringBuffer, subStringLen + 1, "%s", (str1 + subStringStart));
+        cout << subStringBuffer << endl;
+    }
+    
+    subStringLen = LCSubStr_EX3(str1, str2, strlen(str1), strlen(str2), &subStringStart);
+    if (subStringLen > 0) {
+        char subStringBuffer[MAXLEN];
+        snprintf(subStringBuffer, subStringLen + 1, "%s", (str1 + subStringStart));
+        cout << subStringBuffer << endl;
+    }
+
+    
     return 0;
 }
 
