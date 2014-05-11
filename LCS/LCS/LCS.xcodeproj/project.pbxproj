@@ -28,6 +28,7 @@
 		B18B0715191F117F00CB6730 /* LCS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LCS; sourceTree = BUILT_PRODUCTS_DIR; };
 		B18B0718191F117F00CB6730 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B18B071A191F117F00CB6730 /* LCS.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LCS.1; sourceTree = "<group>"; };
+		B18B0721191F11E400CB6730 /* DynamicProgrammingLCS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicProgrammingLCS.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,7 @@
 			children = (
 				B18B0718191F117F00CB6730 /* main.cpp */,
 				B18B071A191F117F00CB6730 /* LCS.1 */,
+				B18B0721191F11E400CB6730 /* DynamicProgrammingLCS.h */,
 			);
 			path = LCS;
 			sourceTree = "<group>";
