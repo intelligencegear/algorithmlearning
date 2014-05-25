@@ -1,0 +1,2 @@
+http://www.drdobbs.com/database/ternary-search-trees/184410528?pgno=1
+http://www.cs.princeton.edu/~rs/strings/tstdemo.c
